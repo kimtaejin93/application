@@ -43,7 +43,7 @@ const Navigation = () => {
       
     <div className='navbar'>
         <div className='nav-title'>
-            <h1>KIMTAEJIN</h1>
+            <h1 className='logo'>KIMTAEJIN</h1>
             <FontAwesomeIcon icon={faBars} className='nav-fold'onClick={foldClick}/>
             
             
