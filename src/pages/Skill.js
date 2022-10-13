@@ -2,7 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faCss3Alt,faHtml5,faJs,faBootstrap,faReact,faGit} from '@fortawesome/free-brands-svg-icons';
 import {Row,Col } from 'react-bootstrap'
-// import Fade from 'react-reveal/Fade';
+import Fade from 'react-reveal/Fade';
 import { useRef,useState,useEffect  } from 'react';
 
 
@@ -26,7 +26,7 @@ const Skill = () => {
     
         <div className='skill-page' ref={skillRef}>
             {skillShow<600?
-            // <Fade bottom>
+            <Fade bottom>
             <div>
         <h4>SKILLS</h4>
         
@@ -57,7 +57,7 @@ const Skill = () => {
             </Col>
         </Row>
         </div>
-        // </Fade>
+        </Fade>
         :
         <Row className='invisible'> 
             <Col md={4}>
