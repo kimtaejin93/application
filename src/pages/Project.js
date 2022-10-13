@@ -7,8 +7,8 @@ const Project = () => {
       <h4>PROJECTS</h4>
         <Row>
           <Col md={6}>
-            <video src='/netflix.mp4' className='project-video' autoPlay loop muted/>
-            <a href='https://taejin-netflix.netlify.app'>NETFLIX</a>
+            {/* <video src='/netflix.mp4' className='project-video' autoPlay loop muted/>
+            <a href='https://taejin-netflix.netlify.app'>NETFLIX</a> */}
           </Col>
           <Col md={6}>
             2
